@@ -1,0 +1,17 @@
+{
+    "lwc": { "modules": [{ "dir": "$rootDir/src/modules" },{ "npm": "lightning-base-components" }] },
+    "assets": [
+        {
+            "alias": "assetsDir",
+            "dir": "$rootDir/node_modules/@salesforce-ux/design-system/assets",
+            "urlPath": "/assets"
+        }
+    ],
+    "routes": [
+        {
+            "id": "example",
+            "path": "/",
+            "rootComponent": "example/app"
+        }
+    ]
+}

@@ -1,0 +1,317 @@
+body {
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+}
+
+.move_title {
+    font-size: 1rem;
+    position: absolute;
+    top: 527px;
+    left: 35px;
+}
+
+.pp_title {
+    font-size: 1rem;
+    position: absolute;
+    top: 527px;
+    left: 360px;
+}
+
+.power_title {
+    font-size: 1rem;
+    position: absolute;
+    top: 527px;
+    left: 262px;
+}
+
+.move1 {
+    font-size: 1.25rem;
+    overflow: hidden;
+    width: 165px;
+    height: 25px;
+    position: absolute;
+    top: 572px;
+    left: 35px;
+}
+
+.pp1 {
+    font-size: 1.25rem;
+    overflow: hidden;
+    width: 35px;
+    height: 25px;
+    position: absolute;
+    top: 572px;
+    left: 360px;
+}
+
+.move2 {
+    font-size: 1.25rem;
+    overflow: hidden;
+    width: 165px;
+    height: 25px;
+    position: absolute;
+    top: 626px;
+    left: 35px;
+}
+
+.pp2 {
+    font-size: 1.25rem;
+    overflow: hidden;
+    width: 35px;
+    height: 25px;
+    position: absolute;
+    top: 626px;
+    left: 360px;
+
+}
+
+.move3 {
+    font-size: 1.25rem;
+    overflow: hidden;
+    width: 165px;
+    height: 25px;
+    position: absolute;
+    top: 680px;
+    left: 35px;
+}
+
+.pp3 {
+    font-size: 1.25rem;
+    overflow: hidden;
+    width: 35px;
+    height: 25px;
+    position: absolute;
+    top: 680px;
+    left: 360px;
+}
+
+.move4 {
+    font-size: 1.25rem;
+    overflow: hidden;
+    width: 165px;
+    height: 25px;
+    position: absolute;
+    top: 734px;
+    left: 35px;
+}
+
+.pp4 {
+    font-size: 1.25rem;
+    overflow: hidden;
+    width: 35px;
+    height: 25px;
+    position: absolute;
+    top: 734px;
+    left: 360px;
+}
+
+.level {
+    position: absolute;
+    overflow: hidden;
+    width: 165px;
+    height: 35px;
+    top: 795px;
+    left: 146px;
+}
+
+.HP_Value {
+    position: absolute;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    top: 865px;
+    left: 150px;
+}
+
+.HP_Title {
+    position: absolute;
+    top: 865px;
+    left: 30px;
+}
+.stat_attack {
+    position: absolute;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    top: 919px;
+    left: 150px;
+}
+
+.stat_defense {
+    position: absolute;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    top: 973px;
+    left: 150px;
+}
+
+.stat_speed {
+    position: absolute;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    top: 973px;
+    left: 342px;
+}
+
+.stat_special {
+    position: absolute;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    top: 919px;
+    left: 342px;
+}
+
+.name_attack {
+    position: absolute;
+    top: 919px;
+    left: 30px;
+}
+
+.name_defense {
+    position: absolute;
+    top: 973px;
+    left: 25px;
+}
+
+.name_speed {
+    position: absolute;
+    top: 973px;
+    left: 222px;
+}
+
+.name_special {
+    position: absolute;
+    top: 919px;
+    left: 222px;
+}
+
+.resets {
+    font-size: 1.25rem;
+    text-decoration-line: underline;
+    position: absolute;
+    top: 179px;
+    left: 16px;
+}
+
+.game_time {
+    font-size: 1.25rem;
+    text-decoration-line: underline;
+    position: absolute;
+    top: 59px;
+    left: 138px;
+}
+
+.real_time {
+    font-size: 1.25rem;
+    text-decoration-line: underline;
+    position: absolute;
+    top: 59px;
+    left: 13px;
+}
+
+.name_snessy {
+    position: absolute;
+    top: 538px;
+    left: 1660px;
+}
+
+.nickname {
+    position: absolute;
+    overflow: hidden;
+    width: 165px;
+    height: 35px;
+    top: 185px;
+    left: 193px;
+}
+
+.pokemon_image {
+    position: absolute;
+    top: 212px;
+    left: 90px;
+}
+
+.boulder_badge {
+    position: absolute;
+    top: 65px;
+    left: 1521px;
+    visibility:hidden;
+}
+
+.cascade_badge {
+    position: absolute;
+    top:61px;
+    left: 1631px;
+    visibility: hidden;
+}
+
+.thunder_badge {
+    position: absolute;
+    top: 57px;
+    left: 1719px;
+    visibility: hidden;
+}
+
+.rainbow_badge {
+    position: absolute;
+    top: 60px;
+    left: 1827px;
+    visibility: hidden;
+}
+
+.soul_badge {
+    position: absolute;
+    top: 162px;
+    left: 1517px;
+    visibility: hidden;
+}
+
+.marsh_badge {
+    position: absolute;
+    top: 160px;
+    left: 1621px;
+    visibility: hidden;
+}
+
+.volcano_badge {
+    position: absolute;
+    top: 160px;
+    left: 1725px;
+    visibility: hidden;
+}
+
+.earth_badge {
+    position: absolute;
+    top: 158px;
+    left: 1828px;
+    visibility: hidden;
+}
+
+.pokemon_background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.pokemon_type1 {
+    position: absolute;
+    top: 449px;
+    left: 116px;
+}
+
+.pokemon_type2 {
+    position: absolute;
+    top: 375px;
+    left: 0px;
+    visibility: hidden;
+}
+
+.exp_title {
+    font-size: 1rem;
+    position: absolute;
+    top: 823px;
+    left: 25px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<template>
+    <main>
+        <template if:true={ready}>
+            <div class="d-flex justify-content-between h-100">
+                <div class="d-flex flex-column justify-content-around text-center" style="width: 100%;">
+                    <div class = "pokemon_background"><img src="https://i.imgur.com/t6wRv6G.png" style="width:1920px;height:1080px;"></div>
+                    <div class = "pokemon_image" style="bgPokemonStyle(mapper.properties.battle.yourPokemon)"></div>
+                    <div class = "pokemon_type1"><img src="https://i.imgur.com/smgGzD5.png" style="width:165px;height:48px;"></div>
+                    <div class = "pokemon_type2"><img src="https://i.imgur.com/smgGzD5.png" style="width:165px;height:48px;"></div>
+                    <div class = "level"> Level: {level}</div>
+                    <div class = "HP_Value">{battleStatMaxHp}</div>
+                    <div class = "HP_Title">HP:</div>
+                    <div class = "move1">{move1} ?? "-" </div>
+                    <div class = "pp1">{move1pp}</div>
+                    <div class = "move2">{move2} ?? "-" </div>
+                    <div class = "pp2">{move2pp}</div>
+                    <div class = "move3">{move3} ?? "-" </div>
+                    <div class = "pp3">{move3pp}</div>
+                    <div class = "move4">{move4} ?? '-' </div>
+                    <div class = "pp4">{move4pp}</div>
+                    <div class = "stat_attack">{battleStatAttack} ?? '-'</div>
+                    <div class = "stat_defense">{battleStatDefense} ?? '-'</div>
+                    <div class = "stat_speed">{battleStatSpeed} ?? '-'</div>
+                    <div class = "stat_special">{battleStatSpecial} ?? '-'</div>
+                    <div class = "name_attack"> ATK: </div>
+                    <div class = "name_defense"> DEF: </div>
+                    <div class = "name_speed"> SPD: </div>
+                    <div class = "name_special"> SPC:</div>
+                    <div class = "resets"> RESETS: </div>
+                    <div class = "game_time"> GAME TIME: </div>
+                    <div class = "real_time"> REAL TIME: </div>
+                    <div class = "name_snessy"> SNESSY </div>
+                    <div class = "nickname"> {nickname.value} ?? "-" </div>
+                    <div class = "exp_title"> EXP: </div>
+                    <div class = "move_title"> MOVE: </div>
+                    <div class = "power_title"> PWR: </div>
+                    <div class = "pp_title"> PP: </div>
+                    <template if:true={boulderBadgeState}>
+                        <div class = "boulder_badge"><img src="https://i.imgur.com/JX6p69j.png" style="width:75px; height:75px;"></div>
+                    </template>
+                    <template if:true={cascadeBadgeState}>
+                        <div class = "cascade_badge"><img src="https://i.imgur.com/07KyuqE.png" style="width:62px; height:85px;"></div>
+                    </template>
+                    <template if:true={thunderBadgeState}>
+                        <div class = "thunder_badge"><img src="https://i.imgur.com/pNl5bhB.png" style="width:93px; height:92px;"></div>
+                    </template>
+                    <template if:true={rainbowBadgeState}>
+                        <div class = "rainbow_badge"><img src="https://i.imgur.com/3SxaOeT.png" style="width:84px; height:84px;"></div>
+                    </template>
+                    <template if:true={soulBadgeState}>
+                        <div class = "soul_badge"><img src="https://i.imgur.com/4S6fHLH.png" style="width:82px; height:78px;"></div>
+                    </template>
+                    <template if:true={marshBadgeState}>
+                        <div class = "marsh_badge"><img src="https://i.imgur.com/JZhSnIM.png" style="width:80px; height:80px;"></div>
+                    </template>
+                    <template if:true={volcanoBadgeState}>
+                        <div class = "volcano_badge"><img src="https://i.imgur.com/ZcUqYMK.png" style="width:81px; height:79px;"></div>
+                    </template>
+                    <template if:true={earth_badge}>
+                        <div class = "earth_badge"><img src="https://i.imgur.com/Usv29Tf.png" style="width:81px; height:81px;"></div>
+                    </template>
+                </div>
+            </div>
+        </template>
+    </main>
+</template>
+</html>
